@@ -14,3 +14,7 @@
 Route::get('admin', function () {
     return view('template');
 });
+
+Route::get('admin/form', function () {
+    return view('kamar.form');
+});
